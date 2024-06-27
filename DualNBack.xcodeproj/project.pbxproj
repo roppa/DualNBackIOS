@@ -9,12 +9,21 @@
 /* Begin PBXBuildFile section */
 		7371D65F2C2D70DF00946BB7 /* DualNBackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7371D65E2C2D70DF00946BB7 /* DualNBackApp.swift */; };
 		7371D6612C2D70DF00946BB7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7371D6602C2D70DF00946BB7 /* ContentView.swift */; };
-		7371D6632C2D70DF00946BB7 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7371D6622C2D70DF00946BB7 /* Item.swift */; };
 		7371D6652C2D70E100946BB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7371D6642C2D70E100946BB7 /* Assets.xcassets */; };
 		7371D6682C2D70E100946BB7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7371D6672C2D70E100946BB7 /* Preview Assets.xcassets */; };
-		7371D6722C2D70E200946BB7 /* DualNBackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7371D6712C2D70E200946BB7 /* DualNBackTests.swift */; };
-		7371D67C2C2D70E200946BB7 /* DualNBackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7371D67B2C2D70E200946BB7 /* DualNBackUITests.swift */; };
-		7371D67E2C2D70E200946BB7 /* DualNBackUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7371D67D2C2D70E200946BB7 /* DualNBackUITestsLaunchTests.swift */; };
+		7371D68B2C2D713000946BB7 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7371D68A2C2D713000946BB7 /* Models.swift */; };
+		7371D68D2C2D714D00946BB7 /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7371D68C2C2D714D00946BB7 /* IntroView.swift */; };
+		7371D68F2C2D716500946BB7 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7371D68E2C2D716500946BB7 /* GameView.swift */; };
+		7371D6912C2D719400946BB7 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7371D6902C2D719400946BB7 /* GridView.swift */; };
+		7371D6932C2D722F00946BB7 /* OverviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7371D6922C2D722F00946BB7 /* OverviewView.swift */; };
+		7371D69E2C2D758000946BB7 /* z.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7371D6962C2D757F00946BB7 /* z.mp3 */; };
+		7371D69F2C2D758000946BB7 /* t.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7371D6972C2D757F00946BB7 /* t.mp3 */; };
+		7371D6A02C2D758000946BB7 /* s.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7371D6982C2D757F00946BB7 /* s.mp3 */; };
+		7371D6A12C2D758000946BB7 /* w.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7371D6992C2D757F00946BB7 /* w.mp3 */; };
+		7371D6A22C2D758000946BB7 /* u.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7371D69A2C2D757F00946BB7 /* u.mp3 */; };
+		7371D6A32C2D758000946BB7 /* v.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7371D69B2C2D757F00946BB7 /* v.mp3 */; };
+		7371D6A42C2D758000946BB7 /* y.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7371D69C2C2D758000946BB7 /* y.mp3 */; };
+		7371D6A52C2D758000946BB7 /* x.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7371D69D2C2D758000946BB7 /* x.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,14 +47,23 @@
 		7371D65B2C2D70DF00946BB7 /* DualNBack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DualNBack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7371D65E2C2D70DF00946BB7 /* DualNBackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DualNBackApp.swift; sourceTree = "<group>"; };
 		7371D6602C2D70DF00946BB7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		7371D6622C2D70DF00946BB7 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		7371D6642C2D70E100946BB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7371D6672C2D70E100946BB7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7371D66D2C2D70E200946BB7 /* DualNBackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DualNBackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7371D6712C2D70E200946BB7 /* DualNBackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DualNBackTests.swift; sourceTree = "<group>"; };
 		7371D6772C2D70E200946BB7 /* DualNBackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DualNBackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7371D67B2C2D70E200946BB7 /* DualNBackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DualNBackUITests.swift; sourceTree = "<group>"; };
-		7371D67D2C2D70E200946BB7 /* DualNBackUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DualNBackUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7371D68A2C2D713000946BB7 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		7371D68C2C2D714D00946BB7 /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
+		7371D68E2C2D716500946BB7 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		7371D6902C2D719400946BB7 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		7371D6922C2D722F00946BB7 /* OverviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewView.swift; sourceTree = "<group>"; };
+		7371D6962C2D757F00946BB7 /* z.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = z.mp3; sourceTree = "<group>"; };
+		7371D6972C2D757F00946BB7 /* t.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = t.mp3; sourceTree = "<group>"; };
+		7371D6982C2D757F00946BB7 /* s.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = s.mp3; sourceTree = "<group>"; };
+		7371D6992C2D757F00946BB7 /* w.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = w.mp3; sourceTree = "<group>"; };
+		7371D69A2C2D757F00946BB7 /* u.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = u.mp3; sourceTree = "<group>"; };
+		7371D69B2C2D757F00946BB7 /* v.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = v.mp3; sourceTree = "<group>"; };
+		7371D69C2C2D758000946BB7 /* y.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = y.mp3; sourceTree = "<group>"; };
+		7371D69D2C2D758000946BB7 /* x.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = x.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +95,6 @@
 			isa = PBXGroup;
 			children = (
 				7371D65D2C2D70DF00946BB7 /* DualNBack */,
-				7371D6702C2D70E200946BB7 /* DualNBackTests */,
-				7371D67A2C2D70E200946BB7 /* DualNBackUITests */,
 				7371D65C2C2D70DF00946BB7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -98,9 +114,14 @@
 			children = (
 				7371D65E2C2D70DF00946BB7 /* DualNBackApp.swift */,
 				7371D6602C2D70DF00946BB7 /* ContentView.swift */,
-				7371D6622C2D70DF00946BB7 /* Item.swift */,
 				7371D6642C2D70E100946BB7 /* Assets.xcassets */,
+				7371D6942C2D72B700946BB7 /* Audio */,
 				7371D6662C2D70E100946BB7 /* Preview Content */,
+				7371D68A2C2D713000946BB7 /* Models.swift */,
+				7371D68C2C2D714D00946BB7 /* IntroView.swift */,
+				7371D68E2C2D716500946BB7 /* GameView.swift */,
+				7371D6902C2D719400946BB7 /* GridView.swift */,
+				7371D6922C2D722F00946BB7 /* OverviewView.swift */,
 			);
 			path = DualNBack;
 			sourceTree = "<group>";
@@ -113,21 +134,19 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		7371D6702C2D70E200946BB7 /* DualNBackTests */ = {
+		7371D6942C2D72B700946BB7 /* Audio */ = {
 			isa = PBXGroup;
 			children = (
-				7371D6712C2D70E200946BB7 /* DualNBackTests.swift */,
+				7371D6982C2D757F00946BB7 /* s.mp3 */,
+				7371D6972C2D757F00946BB7 /* t.mp3 */,
+				7371D69A2C2D757F00946BB7 /* u.mp3 */,
+				7371D69B2C2D757F00946BB7 /* v.mp3 */,
+				7371D6992C2D757F00946BB7 /* w.mp3 */,
+				7371D69D2C2D758000946BB7 /* x.mp3 */,
+				7371D69C2C2D758000946BB7 /* y.mp3 */,
+				7371D6962C2D757F00946BB7 /* z.mp3 */,
 			);
-			path = DualNBackTests;
-			sourceTree = "<group>";
-		};
-		7371D67A2C2D70E200946BB7 /* DualNBackUITests */ = {
-			isa = PBXGroup;
-			children = (
-				7371D67B2C2D70E200946BB7 /* DualNBackUITests.swift */,
-				7371D67D2C2D70E200946BB7 /* DualNBackUITestsLaunchTests.swift */,
-			);
-			path = DualNBackUITests;
+			path = Audio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,8 +253,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7371D6A42C2D758000946BB7 /* y.mp3 in Resources */,
+				7371D6A12C2D758000946BB7 /* w.mp3 in Resources */,
+				7371D6A32C2D758000946BB7 /* v.mp3 in Resources */,
+				7371D69E2C2D758000946BB7 /* z.mp3 in Resources */,
 				7371D6682C2D70E100946BB7 /* Preview Assets.xcassets in Resources */,
+				7371D6A22C2D758000946BB7 /* u.mp3 in Resources */,
+				7371D6A02C2D758000946BB7 /* s.mp3 in Resources */,
+				7371D6A52C2D758000946BB7 /* x.mp3 in Resources */,
 				7371D6652C2D70E100946BB7 /* Assets.xcassets in Resources */,
+				7371D69F2C2D758000946BB7 /* t.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,8 +288,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				7371D6612C2D70DF00946BB7 /* ContentView.swift in Sources */,
-				7371D6632C2D70DF00946BB7 /* Item.swift in Sources */,
+				7371D68D2C2D714D00946BB7 /* IntroView.swift in Sources */,
+				7371D6912C2D719400946BB7 /* GridView.swift in Sources */,
 				7371D65F2C2D70DF00946BB7 /* DualNBackApp.swift in Sources */,
+				7371D68F2C2D716500946BB7 /* GameView.swift in Sources */,
+				7371D68B2C2D713000946BB7 /* Models.swift in Sources */,
+				7371D6932C2D722F00946BB7 /* OverviewView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +301,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7371D6722C2D70E200946BB7 /* DualNBackTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,8 +308,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7371D67E2C2D70E200946BB7 /* DualNBackUITestsLaunchTests.swift in Sources */,
-				7371D67C2C2D70E200946BB7 /* DualNBackUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
